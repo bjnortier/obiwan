@@ -1,5 +1,17 @@
 {
   "name": "obiwan",
   "version": "0.1.0",
-  "description": "An event source DB. May the source be with you"
+  "description": "An event source DB. May the source be with you",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.2",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt": "~0.4.1",
+    "chai": "~1.7.2",
+    "async": "~0.2.9"
+  },
+  "dependencies": {
+    "underscore": "~1.5.1"
+  }
 }
